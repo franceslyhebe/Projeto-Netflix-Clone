@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link para o icon de search-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--Link para a página de estilo-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--Link para adicionar o Icon-->
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <!--Link para a OwlCarousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Início - Netflix</title>
+</head>
+<body>
+    <header>
+    <div class="container">
+         <img src="imagens/netflix-logo-6.png" alt="Logotipo">
+            <ul class="menu">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Séries</a></li>
+                <li><a href="#">Filmes</a></li>
+                <li><a href="#">Novidade</a></li>
+                <li><a href="#">Minha Lista</a></li>
+            </ul>
+            <div class="nav-secundaria">
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Título, gente e genêros">
+                    <a class="search-btn" href="#"><i class="fas fa-search"></i>
+                    </a>
+                 </div>
+                   
+                <a href="#"><h2>Infantil</h2></a>
+                <img src="imagens/sino.png" alt="" class="sino">
+                <img src="imagens/perfil.png" alt="" class="perfil">
+
+            </div>            
+        </div>
+    </header>
+    
+    <main>
+        <div class="container-hero">
+            <div class="filme-principal">
+                <div class="row" id="infos">
+                    <div class="col-categoria">
+                        <img src="imagens/N.png" alt="Logotipo">
+                        <h2 id="serie">SÉRIE</h2>
+                    </div>
+                    <div class="col-texto">
+                        <h1 class="text-white">MAID</h1>
+                        <h2>Assista a temporada 1 agora</h2>
+                        <p class="text-white">Com problemas financeiros e familiares, Alex deixa para trás um relacionamento abusivo e encontra um emprego como faxineira para sustentar sua filha e construir um futuro para as duas.</p>
+                    </div>
+
+                    <div class="btn">
+                        <button class="arrow"><img src="imagens/seta.png">Assistir</button>
+                        <button class="info"><img src="imagens/info.png">Mais Informações</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+ 
+        <div class="container-slider">
+            <div class="content-slider">
+                <div class="text-slider">
+                    <p>Lançamentos</p>
+                </div>
+    
+                <div class="owl-carousel owl-theme" id="filmes">
+                    <div class="item"><img src="capas/Untitled.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/explained.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/last-kingdom.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/into-the-night.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/lock-key.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/peaky-blinders.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/queens-gambit.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/social-dilemma.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/the-crown.png" alt="The Five"></div>
+                    <div class="item"><img src="capas/you.png" alt="The Five"></div> 
+                </div>
+            </div>   
+        </div>
+
+        <div class="container-slider2">
+            <div class="content-slider">
+                <div class="text-slider">
+                    <p>Top 10 no seu país!</p>
+                </div>
+    
+                <div class="owl-carousel owl-theme" id="filmes">
+                    <div class="item"><img src="numeros/One.png" alt="top1"></div>
+                    <div class="item"><img src="numeros/Two.png" alt="top2"></div>
+                    <div class="item"><img src="numeros/Three.png" alt="top3"></div>
+                    <div class="item"><img src="numeros/Four.png" alt="top4"></div>
+                    <div class="item"><img src="numeros/Five.png" alt="top5"></div>
+                    <div class="item"><img src="numeros/six.png" alt="top6"></div>
+                    <div class="item"><img src="numeros/seven.png" alt="top7"></div>
+                    <div class="item"><img src="numeros/oito.png" alt="top8"></div>
+                    <div class="item"><img src="numeros/nove.png" alt="top9"></div>
+                    <div class="item"><img src="numeros//dez.png" alt="top10"></div> 
+                </div>
+            </div>   
+        </div>
+ 
+</main> 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+</script>
+</body>
+</html>
